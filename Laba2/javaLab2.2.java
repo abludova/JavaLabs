@@ -12,9 +12,9 @@ public class MergeSortedArrays {
     }
 
     public static void main(String[] args) {
-        int[] arr1 = {1, -1, 5, 22, 2, 45};
-        int[] arr2 = {23, 4, 6, 8, -9};
-        int[] merged = mergeArrays(arr1, arr2);
+        int[] firstArr = {1, -1, 5, 22, 2, 45};
+        int[] secArr = {23, 4, 6, 8, -9};
+        int[] merged = mergeArrays(firstArr, secArr);
 
         System.out.println("Объединенный массив: " + Arrays.toString(merged));
     }
